@@ -30,11 +30,11 @@ my_list.pop(0)
 print("After pop(0) method: ", my_list)
 
 """Modifying Elements"""
-# .sort(): Sort the items of list in-place.
+# .sort(): Sort the items of list in-place smallest to largest
 # Compare to sorted() function (returns sorted list)
-my_list = [14, 5, 8]
-print("List reset to: ", my_list)
-print("Sorted with sorted(): ", sorted(my_list))
+# my_list = [14, 5, 8]
+# print("List reset to: ", my_list)
+# print("Sorted with sorted(): ", sorted(my_list))
 my_list = [14, 5, 8]
 print("List reset to: ", my_list)
 my_list.sort()
